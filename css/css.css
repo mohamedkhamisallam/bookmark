@@ -1,0 +1,23 @@
+*
+{font-family: arial;}/*main font*/
+h3{
+    color: #AAA;
+    font-size: 35px;
+    padding: 20px;
+}
+hr{
+    width: 75%;
+    margin: auto;
+    color: rgb(0, 0, 0);
+}
+.main {
+    background-color: #EEE;
+    border: none;
+    text-align: center;
+    padding: 30px;
+}
+p{
+    color: black;
+
+   
+}

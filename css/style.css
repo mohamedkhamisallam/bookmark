@@ -1,0 +1,533 @@
+/********general***********/
+.main-color {
+    background-color: #00c3da;
+}
+ h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+ }
+ /**********end of general/*/
+ /*****start of nav section **********/
+
+  .fix {
+      position: fixed;
+      width: 100%;
+      z-index: 10000;
+  }
+  #nav .nav-s-bar {
+     width: 90%;
+     
+ }
+ #nav .nav-e-bar{
+     width: 10%;
+    
+ }
+ .bg-1 {
+     height: 100vh;
+     background-image: url(../images/bg-image-28.jpg);
+     background-size: cover;
+  
+ }
+ .bg-2 {
+    height: 100vh;
+    background-image: url(../images/bg-image-29.jpg);
+    background-size: cover;
+ 
+}
+ .inner-bg1 {
+     width:100% ;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.479);
+
+ }
+ .inner-bg2 {
+    width:100% ;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+
+}
+
+
+
+
+ .input-group-text {
+    display: flex;
+ 
+ justify-content: center;
+  padding: 0.7rem 7rem;
+  font-size: 1.5rem;
+  width: 5rem;
+  
+ 
+  text-align: center;
+  
+  background-color: rgba(255, 255, 255, 0.199);
+  border: none;
+  border-radius: .25rem;
+ 
+}
+.social {
+  
+  text-align: center;
+  padding: 0rem 2rem 0rem 2rem;
+  
+}
+
+.social ul {
+  list-style: none;
+}
+
+  .inner-layer {
+      padding: 10rem;
+  }
+  .inner-layer h1 {
+      font-size: 6rem;
+      color: white;
+  }
+
+ .inner-layer button{
+     color: white;
+     width: 10rem;
+     height: 3rem;
+   border-radius: 1rem;
+ }
+ .inner-layer .bt1 {
+     background-color: aqua;
+     transition: all 1s;
+ }
+ .inner-layer .bt1:hover {
+     transform: translateY(-1rem);
+ }
+ .inner-layer .bt2 {
+   background-color: transparent;
+   transition: all 1s;
+}
+.inner-layer .bt2:hover {
+    background-color: white;
+    color: black;
+}
+ .arrow1 {
+     position: absolute;
+     top: 50%;
+     
+ }
+ .arrow1 i{
+     font-size: 4rem;
+     color: white;
+     transition: all 1s;
+     z-index: 500;
+     
+ }
+ .arrow1-layer {
+     position: absolute;
+     width: 3.5rem;
+     height: 3.5rem;
+     transition: all 1s;
+     top: 10%;
+  left: -50px;
+  
+ }
+ .arrow1:hover .arrow1-layer {
+   left: 0px;
+    background-color: rgba(255, 255, 255, 0.473);
+    
+ }
+ .arrow1:hover  i {
+     color: black;
+    
+ }
+ .arrow2 {
+    position: absolute;
+    top: 60%;
+    
+}
+.arrow2 i{
+    font-size: 4rem;
+    color: white;
+    transition: all 1s;
+    
+}
+.arrow2-layer {
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+    transition: all 1s;
+    top: 10%;
+ left: -50px;
+ 
+}
+.arrow2:hover .arrow2-layer {
+  left: 0px;
+   background-color: rgba(255, 255, 255, 0.473);
+   
+}
+.arrow2:hover  i {
+    color: black;
+   
+}
+
+
+  /*****end of nav section **********/
+  /*******start of who we are section*********/
+
+  .who-we p {
+      color: black;
+     
+
+  }
+  .who-we {
+      padding: 7rem 0rem 7rem 0rem ;
+  }
+   
+   .who-we h4:after{
+    content: "";
+   animation-name: moving;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+}
+
+   @keyframes moving {
+         0%{content: "We are an innovative company. We develop and design w|for";}
+    0%{content: "We are an innovative company. We develop and design we| for";}
+    10%{content: "We are an innovative company. We develop and design web| for";}
+    15%{content: "We are an innovative company. We develop and design webs| for";}
+    20%{content: "We are an innovative company. We develop and design websi| for";}
+    25%{content: "We are an innovative company. We develop and design websit| for";}
+    30%{content: "We are an innovative company. We develop and design website| for";}
+    35%{content: "We are an innovative company. We develop and design websites| for";}
+    40%{content: "We are an innovative company. We develop and design websites| for";}
+    45%{content: "We are an innovative company. We develop and design website| fo1";}
+    50%{content: "We are an innovative company. We develop and design websit| for ";}
+    55%{content: "We are an innovative company. We develop and design websi| for";}
+    60%{content: "We are an innovative company. We develop and design webs| for ";}
+    65%{content: "We are an innovative company. We develop and design web| for";}
+    70%{content: "We are an innovative company. We develop and design we| for";}
+    75%{content: "We are an innovative company. We develop and design w| for";}
+    76%{content: "We are an innovative company. We develop and design w| for";}
+    77%{content: "We are an innovative company. We develop and design s| for";}
+    78%{content: "We are an innovative company. We develop and design so| for";}
+    79%{content: "We are an innovative company. We develop and design sof| for";}
+    80%{content: "We are an innovative company. We develop and design soft| for";}
+    81%{content: "We are an innovative company. We develop and design softw| for";}
+    85%{content: "We are an innovative company. We develop and design softwa| for";}
+    88%{content: "We are an innovative company. We develop and design softwar| for";}
+    90%{content: "We are an innovative company. We develop and design software| for";}
+    95%{content: "We are an innovative company. We develop and design softwares| for";}
+    96%{content: "We are an innovative company. We develop and design softwares| for";}
+    100%{content: "We are an innovative company. We develop and design softwares| for";}
+
+       
+   }
+   .who-we button {
+       background-color: white;
+       border: solid black;
+       width: 8rem;
+       height: 4rem;
+       transition: all 1s;
+   }
+   .who-we button:hover {
+       color: white;
+       background-color: black;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /**********end of who we are section ********/
+
+  
+/********start of creative sectio ********/
+
+ #creative-team .creative-layer {
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 195, 218, 0.9);
+     position: absolute;
+      top: 100%;
+     left: 0% ;
+    transition: all 1s;
+ }
+ #creative-team .creative--team {
+     position: relative;
+ }
+ #creative-team .creative--team:hover .creative-layer {
+     top: 0%;
+ }
+
+
+ /********end of creative sectio ********/
+
+ /**********start of what we do section*************/
+
+  .wedo-color  {
+      background-color: rgba(0, 0, 0, 0.363);
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+  }
+  .wedo-color h2,p {
+      color: white;
+  }
+ .list-start ul {
+     list-style: none;
+     padding-left: 0%;
+ }
+ .list-start ul{
+     color: white;
+ }
+ /**********end of what we do section*************/
+  /**********startof what price section*************/
+
+.price  h2 {
+       position: relative;
+         
+     
+}
+.price h2:before {
+
+   content: "c";
+   font-size: 4.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -2rem;
+    color: rgba(0, 255, 255, 0.315);
+   z-index: -100;
+    
+
+}
+.price{
+    margin: 6rem 0rem 6rem 0rem ;
+}
+
+.card-body h2 {
+    position: relative;
+}
+.card-body h2:before {
+    content: "$";
+    position: absolute;
+    top: -50%;
+    left: 0.1rem;
+    font-size: 1rem;
+}
+.card-body h2:after {
+    content: "";
+    position: absolute;
+    z-index: 40000;
+    width: 100%;
+    height: 0.2rem;
+    background-color: #00c3da;
+    border-radius: 50%;
+    top: 120%;
+    left: 0%;
+    
+}
+.card-body p {
+    color: black;
+}
+.button {
+    transition: all 1s  ;
+}
+.button:hover {
+    transform: translateY(-0.2rem);
+}
+.scale {
+    transform: scaleY(1.5);
+}
+.cheap--prices {
+    background-color: rgba(169, 169, 169, 0.274);
+    padding: 3rem 0rem 15rem 0rem ;
+}
+
+    /**********end of  price section*************/
+      /**********start of happy customers section*************/
+
+    
+#customer p {
+    color: black;
+
+}
+#customer {
+  padding: 10rem 0rem 5rem 0rem ;
+  position: relative;
+  
+}
+
+.customer-images img {
+    width: 10%;
+    position: absolute;
+    z-index: 1000;
+   top: -9%;
+    border-radius: 50%;
+    transform: translateX(-50%);
+
+}
+.customer-images {
+    z-index: 522222;
+}
+.customer-title {
+    margin: 6rem;
+    
+  
+   
+
+}
+.happy-customer  {
+    padding: 10rem 0rem 5rem 0rem;
+  
+}
+
+.happy--customer {
+    padding: 5rem 0rem 5rem 0rem ;
+    position: relative;
+    border-radius: 1rem;
+}
+.happy--customer img{
+    width: 15%;
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+
+}
+.carousel-indicators [data-bs-target]{
+    width: 1rem; 
+    height: 1rem; 
+    border-radius: 50%;
+    border: 0;
+    background-color: blueviolet; 
+}
+.happy-happy h2{
+    position: relative;
+
+}
+.happy-happy h2:before{
+    content: "HAPPY CUSTOMERS";
+    position: absolute;
+
+}
+.lol {
+    position: relative ;
+    z-index: 55555;
+    left: 45%;
+    
+    top: 5rem;
+}
+
+
+
+      /************end of happy customers **********/
+      /*********start of get in touch section**********/
+
+    
+    .get--touch {
+        padding: 7rem;
+    }
+     .get h2 {
+        position: relative;
+      
+    }
+
+    .get h2:before {
+
+        content: "G";
+        position: absolute;
+        font-size: 7rem;
+        left: 0%;
+        top: -200%;
+        color: rgba(0, 0, 0, 0.288);
+       
+    }
+    .get h2:after {
+
+        content: "Let's work together.";
+        position: absolute;
+        font-size: 1.5rem;
+        left: 0%;
+        top: 100%;
+        color: rgba(0, 0, 0, 0.288);
+       
+    }
+   
+      input {
+          width: 20rem;
+      } 
+      textarea {
+          width: 20rem;
+      }
+     .last  button {
+          width: 10rem;
+          height: 3rem;
+          border-radius: 1rem;
+          border: 0;
+          color:white;
+          background-color: aqua;
+          transition: all 1s;
+      }
+     .last  button:hover {
+          transform: translateY(-1rem);
+      }
+      iframe {
+          width: 100%;
+          height: 100%;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /************end of get in touch section*********/
+
+
+
+
+
+
+     #scrool{
+         height: 500px;
+         width: 200px;
+         background-color: red;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
